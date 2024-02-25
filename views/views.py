@@ -15,10 +15,10 @@ def calculate_tax(request, number):
     return render(request, 'views/calculate_tax.html', context)
 
 def show_tax_rate(request):
-    context = {'tax_rate': tax_rate * 100}  # Convert to percentage
+    context = {'tax_rate': tax_rate * 100} 
     return render(request, 'views/tax_rate.html', context)
 
 
     
 
-# Create your views here.
+
