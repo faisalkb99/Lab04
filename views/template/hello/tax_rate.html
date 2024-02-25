@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator - Tax Rate</title>
+</head>
+<body>
+    <h1>Current Tax Rate</h1>
+    {% if tax_rate %}
+        <p>The current tax rate is: {{ tax_rate }}%.</p>
+    {% else %}
+        <p>Tax rate information is unavailable.</p>
+    {% endif %}
+</body>
+</html>

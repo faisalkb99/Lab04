@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator - Result</title>
+</head>
+<body>
+    <h1>Tax Calculation Result</h1>
+    {% if total_price %}
+        <p>The total price including tax is: {{ total_price }}</p>
+    {% else %}
+        <p>Please enter a price to calculate the tax.</p>
+    {% endif %}
+</body>
+</html>
